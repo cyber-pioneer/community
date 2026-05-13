@@ -61,6 +61,12 @@ Help improve FlagOS by contributing code, bug fixes, and new features. See our [
 ### 📖 Documentation
 Improve and expand documentation, examples, tutorials, and translations. Your improvements help make FlagOS accessible to more developers.
 
+### 📋 FEP (FlagOS Enhancement Proposal)
+Propose and track cross-module features through our FEP process:
+- **[FEP Process](docs/fep-process.md)** - How to write and manage a FEP
+- **[Create a FEP](https://github.com/FlagOS-AI/community/issues/new?template=fep.yml)** - Submit a new Feature proposal
+- **[View all FEPs](https://github.com/FlagOS-AI/community/issues?q=label%3AFEP+sort%3Aupdated-desc)** - Browse existing proposals
+
 ### 🐛 Bug Reports & Features
 Report issues you encounter or suggest new features:
 - **Bug Reports**: Help us fix problems by providing detailed reproduction steps
@@ -96,6 +102,7 @@ By participating in this community, you agree to uphold these standards and help
 ## Community Resources
 
 - 📚 **[Contributing Guide](CONTRIBUTING.md)** - Detailed guidelines for contributing
+- 📋 **[FEP Process](docs/fep-process.md)** - Feature Enhancement Proposal workflow
 - 🔗 **[FlagOS Wiki](https://flagos-wiki.baai.ac.cn/)** - Complete documentation and resources
 - 📝 **[Project Roadmap](https://github.com/flagos-ai)** - See what we're building
 - 🔗 **[Organization GitHub](https://github.com/flagos-ai)** - All FlagOS repositories

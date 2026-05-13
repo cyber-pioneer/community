@@ -61,6 +61,12 @@ FlagOS 项目包含多个专业化的代码仓库：
 ### 📖 文档贡献
 改进和完善文档、示例、教程和翻译。您的贡献有助于让更多开发者了解 FlagOS。
 
+### 📋 FEP（FlagOS Enhancement Proposal）
+通过 FEP 流程提出和跟踪跨模块 Feature：
+- **[FEP 流程文档](docs/fep-process.md)** - 如何编写和管理 FEP
+- **[创建 FEP](https://github.com/FlagOS-AI/community/issues/new?template=fep.yml)** - 提交新的 Feature 提案
+- **[查看所有 FEP](https://github.com/FlagOS-AI/community/issues?q=label%3AFEP+sort%3Aupdated-desc)** - 浏览已有提案
+
 ### 🐛 Bug 报告和功能建议
 报告您发现的问题或提出改进建议：
 - **Bug 报告** - 通过详细的复现步骤帮助我们修复问题
@@ -97,6 +103,7 @@ FlagOS 项目包含多个专业化的代码仓库：
 ## 社区资源
 
 - 📚 **[贡献指南](CONTRIBUTING_CN.md)** - 详细的贡献指南
+- 📋 **[FEP 流程](docs/fep-process.md)** - Feature 增强提案工作流
 - 🔗 **[FlagOS Wiki](https://flagos-wiki.baai.ac.cn/)** - 完整的文档和资源
 - 📝 **[项目路线图](https://github.com/flagos-ai)** - 了解我们的规划
 - 🔗 **[组织 GitHub](https://github.com/flagos-ai)** - 所有 FlagOS 代码仓
