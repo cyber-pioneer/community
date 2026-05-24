@@ -1,0 +1,10 @@
+# OWNERS — sig-operator
+#
+# FlagGems, FlagAttention, FlagFFT, FlagSparse,
+# FlagDNN, FlagBLAS, FlagTensor, FlagAudio
+
+reviewers:
+  - TBD
+
+approvers:
+  - TBD

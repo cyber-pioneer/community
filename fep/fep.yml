@@ -1,0 +1,103 @@
+name: "  FEP (FlagOS Enhancement Proposal)"
+description: FlagOS Feature
+title: "[FEP][sig-xxx] Feature"
+labels: ["FEP"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## FlagOS Enhancement Proposal
+
+         [FEP](../blob/main/fep/README.md)  [FEP](../blob/main/fep/README.md)
+
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      placeholder: "@xxx"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sig
+    attributes:
+      label: SIG
+      options:
+        - sig-operator
+        - sig-compiler
+        - sig-network
+        - sig-framework
+        - sig-training
+        - sig-kernelgen
+        - sig-embodied
+        - sig-ai4s
+        - sig-benchmark
+        - sig-skills
+        - sig-tools
+        - sig-architecture
+    validations:
+      required: true
+
+  - type: input
+    id: fep-doc
+    attributes:
+      label: FEP
+      description: FEP markdown
+      placeholder: "https://github.com/FlagOS-AI/community/blob/main/fep/sig-xxx/NNNN-title.md"
+    validations:
+      required: false
+
+  - type: input
+    id: target-version
+    attributes:
+      label: ""
+      placeholder: "FlagOS 2.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ""
+      description: "" + ""
+      placeholder: |
+        ### ""
+        ...
+
+        ### ""
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: ""
+      description: checklist
+      placeholder: |
+        - [ ] 1
+        - [ ] 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-prs
+    attributes:
+      label: " PR"
+      description: PR
+      placeholder: |
+        - [ ] flagos-ai/FlagGems#xxx —
+        - [ ] flagos-ai/FlagTree#xxx —
+    validations:
+      required: false
+
+  - type: textarea
+    id: sig-deps
+    attributes:
+      label: "SIG"
+      description: "SIG  / Feature "
+      placeholder: |
+        " sig-xxx"
+    validations:
+      required: false
