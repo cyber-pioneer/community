@@ -54,6 +54,17 @@ Merge early and iterate — you do not need to fill every section before the fir
 
 <!-- How will this feature be verified? -->
 
+## Packaging
+
+<!-- How to build and package this feature? Provide build commands or script. -->
+
+<!--
+- Build command: pip install . / make / cmake ...
+- Packaging format: pip wheel / deb / rpm / Docker ...
+- Platform requirements: CUDA version, Python version, etc.
+- [Link to packaging script or CI workflow]
+-->
+
 ## Alternatives
 
 <!-- (Optional) Other approaches considered and why they were not chosen. -->

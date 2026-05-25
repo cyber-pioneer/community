@@ -64,8 +64,8 @@ repositories:
   flaggems:
     type: git
     url: https://github.com/flagos-ai/FlagGems.git
-    version: v5.0.3-rc0.1
-    # 分支: v5.0.3-rc0
+    version: v5.3.0-rc0.1
+    # 分支: v5.3.0-rc0
     # 当前版本: v5.0.2 / 默认分支: master ← 注意：不是 main
     # tag 历史格式: v5.0.1.rc.0 → 本次 tag: v5.0.3-rc0.1（分支用 -, tag 保持一致）
 
