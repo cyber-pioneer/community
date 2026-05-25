@@ -62,12 +62,6 @@ Implementation-level details such as API changes, data flow, or architecture dia
 
 <!-- (Optional) Implementation details, API changes, architecture diagrams. -->
 
-## Test Plan
-
-**(Required)** How to verify the feature works correctly. Include functional, performance, and compatibility checks where relevant.
-
-<!-- How will this feature be verified? -->
-
 ## Packaging
 
 **(Required)** How to build and package the feature. Include build commands, packaging format, and platform requirements.
@@ -81,12 +75,11 @@ Implementation-level details such as API changes, data flow, or architecture dia
 - [Link to packaging script or CI workflow]
 -->
 
-## Alternatives
+## Test Plan
 
-Other approaches considered and why they were not chosen. Optional for straightforward features.
+**(Required)** How to verify the feature works correctly. Verify against each Goal listed above. Include functional, performance, and compatibility checks where relevant.
 
-<!-- (Optional) Other approaches considered and why they were not chosen. -->
-
+<!-- How will this feature be verified? -->
 ## Related PRs
 
 All implementation PRs tracked as a checklist.
