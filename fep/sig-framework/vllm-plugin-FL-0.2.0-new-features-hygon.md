@@ -67,25 +67,31 @@ docker run \
 
 ### Build and Package
 
-1. Inside the container, install build dependencies and FlagGems:
-
+1. Inside the container, install build dependencies:
 ```bash
 pip install -U scikit-build-core==0.11 pybind11 ninja cmake
-git clone https://github.com/flagos-ai/FlagGems
-cd FlagGems
-git checkout 1dab11ab1a6671e3132528492d2cc193e78af8f4
-pip install --no-build-isolation .
 ```
 
-2. Clone and install vllm-plugin-FL:
+
+2. Install FlagGems:
+
+```bash
+git clone https://github.com/flagos-ai/FlagGems
+cd FlagGems
+git checkout 2718037d887cd6a3143474da0224648e40c5004f
+pip install --no-build-isolation -e .
+```
+
+3. Clone and install vllm-plugin-FL:
 
 ```bash
 git clone https://github.com/flagos-ai/vllm-plugin-FL
 cd vllm-plugin-FL
-pip install --no-build-isolation .
+git checkout 48af29e21491700a38020ab031af5d3b90e6795e
+pip install --no-build-isolation -e .
 ```
 
-3. Download models
+4. Download models
 ```bash
 modelscope download --model Qwen/Qwen3.6-27B --local_dir /models/Qwen3.6-27B
 modelscope download --model Qwen/Qwen3.6-35B-A3B --local_dir /models/Qwen3.6-35B-A3B
